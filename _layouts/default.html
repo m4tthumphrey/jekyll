@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} -> {% endif %}{{ site.title }}</title>
+    <link href="reset.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Vollkorn:400italic,700italic,400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="container">
+      <header class="header">
+        <div class="name"><a href="/">{{ site.heading }}</a></div>
+        <nav class="nav">
+          <a href="/">Posts</a>
+          <a href="/feed">Feed</a>
+          <a href="/about.html">About</a>
+          <a href="http://github.com/m4tthumphrey">Github</a>
+          <a href="http://twitter.com/m4tthumphrey">Twitter</a>
+          <a href="http://letterboxd.com/m4tthumphrey">Letterboxd</a>
+        </nav>
+      </header>
+      <section class="content">
+
+        {{ content }}
+
+      </section>
+
+      <div class="copyright">
+        <p>All content &copy; Matt Humphrey '86 til today. All views are my own. Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> and your site should be too.</p>
+      </div>
+    </div>
+  </body>
+</html>
