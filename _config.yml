@@ -1,2 +1,5 @@
 title: "Matt Humphrey ||= Magento. PHP. Git. Ruby."
-heading: "Magento. PHP. Git. Ruby."
+name: "Magento. PHP. Git. Ruby."
+description: "Personal site and blog of Matt Humphrey."
+url: "http://m4tt.io"
+permalink: "/posts/:title.html"

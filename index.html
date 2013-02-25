@@ -2,4 +2,15 @@
 layout: default
 ---
 
-This is a page.
+<article class="posts">
+  <div class="meta title">
+    <h1>Matt Humphrey. A long time PHP developer, currently learning Ruby and the art of DevOps.<span class="more"><a href="/about.html">Read more &rarr;</a></h1>
+  </div>
+
+  <ul>
+  {% for post in site.posts %}
+    <li><date>{{ post.date | date: '%B %d' }}</date> <a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+  </ul>
+
+</article>
