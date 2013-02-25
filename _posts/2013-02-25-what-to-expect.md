@@ -1,7 +1,7 @@
 ---
 title: What to expect
 layout: post
-categories: [Magento,Blogging]
+category: Magento
 ---
 I work with Magento everyday, and with that comes great pain and suffering. I have started this blog to share some of that pain. 
 
