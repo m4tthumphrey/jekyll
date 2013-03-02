@@ -399,6 +399,7 @@ ul {
 
 .posts ul {
   list-style-type: none;
+  margin-bottom: 0;
 }
 
 .posts li {
