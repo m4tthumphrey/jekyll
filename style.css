@@ -399,7 +399,6 @@ ul {
 
 .posts ul {
   list-style-type: none;
-  margin-bottom: 0;
 }
 
 .posts li {
@@ -430,5 +429,20 @@ p.social {
   border-top: 5px solid #f17158;
   font-size: 20px;
   padding-top: 50px;
-  margin-bottom: 0;
+}
+
+ul.columns {
+  display: block;
+  margin: 0 auto 0;
+  width: 360px;
+}
+
+ul.columns li {
+  float: left;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.follow-buttons {
+  height: 30px;
 }
