@@ -40,7 +40,7 @@ function form_change(field, value)
 	if (field == 'password') {
 		if (value) {
 			var salt = salter(2);
-			user.hashed_password = hex_md5(salt+':'+value)+':'+salt;
+			user.hashed_password = hex_md5(salt+value)+':'+salt;
 		} else {
 			user.hashed_password = null;
 		}
