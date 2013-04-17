@@ -5,7 +5,7 @@ title: Magento Administrator Generator
 
     <div id="admin-generator">
       <h1>Magento Administrator Generator</h1>
-      <p>Simply complete the form below to generate the SQL to add a new administrator user account and role to your Magento install. You can then paste the SQL into your database. Note that this currently only supports Magento Community Edition, an update for Enterprise will be added soon.</p>
+      <p>Simply complete the form below to generate the SQL to add a new administrator user account and role to your Magento install. You can then paste the SQL into your database.</p>
       <p class="small"><a href="/posts/generate-new-magento-administrator-account.html">Read the blog post</a></p>
 
       <h2>1. New administrator credentials</h2>
@@ -33,8 +33,9 @@ title: Magento Administrator Generator
         <div class="element">
           <label for="version">Version</label>
           <select name="version" id="version">
-            <option value="new">Magento 1.5+</option>
-            <option value="old">Pre Magento 1.5</option>
+            <option value="new">Community 1.5+</option>
+            <option value="old">Community Pre 1.5</option>
+            <option value="enterprise">Enterprise 1.10+</option>
           </select>
         </div>
         <div class="clear"></div>
